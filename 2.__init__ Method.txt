@@ -1,0 +1,21 @@
+                                2.__init__ Method in python [Special Method]
+
+__init__ method called automatically when you create an Object.[it is constructor]
+
+class Computer :
+    def __init__(self, cpu, ram) :
+        self.cpu = cpu
+        self.ram = ram
+
+    def config(self) :
+        print('Config is', self.cpu, self.ram)
+
+com1 = Computer('i5', 16) // Computer() is constructor here
+com2 = Computer('Ryren 3', 8)
+
+com1.config()
+com2.config()
+
+o/p
+    config is i5 16
+    Config is Ryren 3 8

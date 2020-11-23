@@ -1,0 +1,27 @@
+                                1.INTRODUCTION
+
+        -> Python is Procedural Programming / Functional Programming / Object Oriented Programming Language.
+Object :
+    Every Object have some Attributes(properties) and some Behaviour(Methods)
+    Objects are stored in Heap Memory of the Computer
+    we can get the obj address using id(obj name)
+
+    Size of an Object?
+        Depends on the no. of variables and size of each variables
+    
+    Who allocates the size to obj?
+        Constructor [init Method]
+
+class :
+    class is the Design/Blueprint of the Object
+
+class Computer :
+
+    def config(self) :
+        print('i5 16gb 1Tb')
+
+com1 = Computer()
+
+Computer.config(com1) //Type of Calling Method
+
+com1.config() //Type of Calling Method [Preferred]

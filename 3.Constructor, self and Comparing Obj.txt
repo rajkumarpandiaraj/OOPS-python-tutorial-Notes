@@ -1,0 +1,23 @@
+                    3.Constructor, Self and Comparing Object
+
+class Computer :
+    def __init__(self) :
+        self.name = 'navin'
+        self.age = 30
+
+
+    def compare(self, other) :
+        if self.age == other.age ;
+            return True
+        else :
+            return False
+
+cl = Computer()
+cl.age = 20 //changing the property for the single Object
+
+c2=Computer()
+
+if cl.compare(c2) : // created the new method to compare the different two obj (self = c1, other=c2)
+    print('Same')
+else :
+    print('different')
